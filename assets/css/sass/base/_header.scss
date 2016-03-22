@@ -1,0 +1,57 @@
+body {
+	background-color: $fondo !important;
+}
+#header {
+	.navbar-default {
+    	background-color: $blanco;
+    	border-color: $blanco;
+    	border-bottom: 1px solid $borde;
+	}
+	.navbar-nav {
+		padding: 20px 0 0;
+		margin-left: -1px;
+		li > a {
+    		@include titulos(11px, 500, 0px, 'Raleway', $plomo, 3.5px);
+    		padding: 0 15px ;
+    		border-left: 1px solid $borde;
+    		line-height: 1;
+    		&:hover, &:focus {
+    			background-color: $blanco;
+    			color: $negro;
+    		}
+		}
+		.active {color: $plomo;}
+	}
+	.navbar-right {
+		.fa{
+			padding:20px 20px 18px 30px;
+			font-size: 15px;
+			color: $plomo;
+			border-left:1px solid $borde;
+		}
+	}
+	.navbar-toggle {
+    	border: 1px solid $fondo;
+    	background-color: $blanco;
+    	margin-top: 7px;
+    	box-shadow: 2px 2px 7px $fondo;
+    	.icon-bar {
+    		background-color: $negro;
+		}
+	}
+	.navbar-collapse {
+		border-top: 0;
+	}
+	.navbar-brand {
+		padding: 0;
+		h1 {
+			@include titulos(12px, 700, 0 0 0 50px, 'Raleway', $negro, 3px);
+			padding: 20px 25px;
+    		border-right: 1px solid $borde;
+    		line-height: 1;
+		}
+	&:hover, &:focus {
+		background-color: $blanco;
+	    }
+	}
+}

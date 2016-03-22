@@ -1,0 +1,65 @@
+#home {
+	.box-white-1 {
+		background-color: $blanco;
+		border: 1px solid $borde;
+		padding: 0px;
+		.borde-1 {
+			padding: 60px;
+			border-right: 1px solid $borde;
+			h3 {
+				@include titulos(25px, 800, 0, 'Raleway', $negro, 7px);
+			}
+			p{
+				@include titulos(11px, 700, 20px 0 0, 'Raleway', $plomo, 4px);
+			}
+		}
+		.borde-2 {
+			padding: 60px 60px 30px;
+			h5 {
+				@include titulos(12px, 800, 0 auto 0, 'Raleway', $negro, 3.5px);
+			}
+			.media {
+				h6 {
+					@include titulos(10px, 700, 20px 0 0 20px, 'Raleway', $plomo, 3px);
+				}
+				img {
+					border-radius: 100%;
+					position: absolute;
+    				top: 95px;
+    				right: 94px;
+				} 
+			}
+		}
+	}
+	.box-white-2 {
+		padding: 50px;
+		background-color: $blanco;
+		border: 1px solid $borde;
+		border-top: 0;
+		.box-images {
+			img {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+			button {
+				padding: 14px;
+				border: 1px solid $borde;
+				background-color: $blanco;
+				@include titulos(11px, 700, 0 auto, 'Raleway', $negro, 3px);
+			}
+			p {
+				@include titulos(15px, 500, 50px 0 30px, sans-serif, $plomo, 0px);
+			}
+			p.i-block {
+				display: inline-block;
+				@include titulos(9px, 400, 7px 7px 7px 5px, 'Raleway', $plomo, 3px);
+				padding-right: 7px;
+				border-right: 1px solid $borde;
+				i {
+					color: #D0CBCB;
+					margin-right: 3px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,91 @@
+doctype
+html
+    head
+        meta(charset='utf-8')
+        title future imperfect
+        meta(name="viewport",content="width=device-width, initial-scale=1.0")
+
+        link(rel='stylesheet', href='assets/css/main.css')
+        link(href="assets/css/sass/base/bootstrap.min.css" rel="stylesheet")    
+        link(rel='stylesheet', href='assets/css/font-awesome.min.css')
+        link(href='https://fonts.googleapis.com/css?family=Raleway:400,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic' rel='stylesheet' type='text/css')
+
+    body
+        header#header
+            nav.navbar.navbar-default.navbar-fixed-top
+                .container-fluid
+                        .navbar-header
+                            button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false")
+                                    span.sr-only toggle navigation
+                                    span.icon-bar
+                                    span.icon-bar
+                                    span.icon-bar
+
+                            a.navbar-brand.titulo(href="#") 
+                                h1 FUTURE IMPERFECT
+
+                        .collapse.navbar-collapse#bs-example-navbar-collapse-1
+                            ul.nav.navbar-nav.navbar-left
+                                li
+                                    a.active(href="index.html") HOME
+                                li
+                                    a(href="index.html") ABOUT US
+                                li
+                                    a(href="index.html") SERVICES
+                                li
+                                    a(href="index.html") GALLERIES
+                                li
+                                    a(href="index.html") CONTACT
+                            .navbar-right
+                                a
+                                    i.fa.fa-search
+        section#hexagon
+            .container
+                .center
+                    .hexagon
+                        .hexagon-1
+                            .hexagon-2
+                h1 FUTURE IMPERFECT
+                p Another fine responsive site template by 
+                    a(href="#") HTML 5
+        section#home
+            .container
+                .box-white-1
+                    .row
+                        .col-md-9.col-sm-12.borde-1
+                            h3 MAGNA SED ADIPISCING
+                            P LOREM IPSUM DOLOR AMET NULLAN CONSEQUAT ETIAM FEUGIAT
+                        .col-md-3.col-sm-12.borde-2
+                            h5 NOVEMBER 1, 2015
+                            .media
+                                .media-body
+                                    h6.media-heading JANE DOE
+                                .pull-right
+                                    a
+                                        img.media-object.avatar(src="images/avatar.jpg", alt="")
+                .box-white-2
+                    .box-images
+                        img.img-responsive(src="images/pic01.jpg", alt="")
+                        p Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                        button CONTINUE READING
+                        .general.pull-right
+                            p.i-block GENERAL
+                            p.i-block
+                                i.fa.fa-heart
+                                span 28
+                            p.i-block
+                                i.fa.fa-comment
+                                span 128
+            section#boton
+                .container
+                    .row
+                        .col-md-6.col-xs-12
+                            button.pull-right
+                                i.fa.fa-angle-left
+                                span PREVIOUS PAGE
+                        .col-md-6.col-xs-12
+                            button.pull-left
+                                span NEXT PAGE
+                                i.fa.fa-angle-right
+        script(src="assets/js/jquery.min.js") 
+        script(type="text/javascript" src="assets/js/bootstrap.min.js")

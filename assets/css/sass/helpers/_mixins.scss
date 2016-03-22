@@ -1,0 +1,17 @@
+//Mixins
+@mixin titulos($fsize, $fw, $mg, $family, $color, $spacing) {
+    font-size: $fsize;
+    font-weight: $fw;
+    margin: $mg;
+    font-family: $family, sans-serif;
+    color: $color;
+    letter-spacing: $spacing;
+}
+@mixin boton($bgbtn, $pdbtn, $colorbtn, $mgbtn, $borderbtn) {
+    background-color: $bgbtn;
+    padding: $pdbtn;
+    color: $colorbtn;
+    margin: $mgbtn;
+    border: $borderbtn;
+    font-family: 'Raleway', sans-serif;
+}
